@@ -16,13 +16,13 @@ Reproduce el cupón de la captura escribiendo todas las reglas CSS dentro de la 
 | Parte | Indicaciones |
 | --- | --- |
 | Página | Arial o sans-serif, 18 px; fondo `#fff8f0`, texto `#3d443b` |
-| Cupón | Ancho de 600 px, margen de 40 px arriba y abajo y `auto` a los lados; borde de puntos de 5 px `#8fae98`, radio de 15 px y fondo `#ffffff` |
+| Cupón | Ancho de 600 px, margen de 40 px arriba y abajo y 0 px a los lados; borde de puntos de 5 px `#8fae98`, radio de 15 px y fondo `#ffffff` |
 | Cabecera | Padding de 20 px arriba y abajo y 24 px a los lados; fondo `#e4efe5`, esquinas superiores redondeadas de 10 px |
 | Título de la marca | 30 px; margen de 0 px salvo 10 px debajo |
-| Imagen | Ancho de 600 px; `display: block` para evitar el pequeño espacio inferior de las imágenes en línea |
+| Imagen | Ancho de 600 px |
 | Oferta | Padding de 24 px |
 | Título de la oferta | 28 px; margen de 0 px salvo 16 px debajo |
-| Párrafos | Margen de 12 px arriba y abajo y 0 px a los lados; interlineado de 28 px |
+| Párrafos | Conserva el margen natural del navegador; interlineado de 28 px |
 | Condiciones | Padding de 16 px arriba y abajo y 24 px a los lados; fondo `#fff0db`, esquinas inferiores redondeadas de 10 px |
 | Código | Padding de 6 px arriba y abajo y 10 px a los lados; fondo `#d9eadc`, texto `#35583f` |
 | Caducidad | Texto `#94543b` |
