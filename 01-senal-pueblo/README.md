@@ -38,20 +38,13 @@ El texto y el padding dan a la caja una forma aproximadamente cuadrada.
 
 ## 3. Velocidad máxima: señal circular
 
-| Propiedad | Valor |
-| --- | --- |
-| `width` | 180 px |
-| `padding` | 40 px arriba y abajo, 0 px a los lados |
-| `margin` | 30 px arriba y abajo, 20 px a los lados |
-| `border` | 10 px sólido `#c83d3d` |
-| `border-radius` | 100 px |
-| `background-color` | `#ffffff` |
-| `color` | `#202820` |
-| `font-size` | 88 px |
-| `font-weight` | `bold` |
-| `text-align` | `center` |
+Reproduce la señal de velocidad observando la captura y eligiendo tú las propiedades y sus valores.
 
-El padding deja espacio alrededor del número y el radio redondea la caja. La forma puede variar ligeramente según cómo represente la fuente el navegador.
+| Parte | Color |
+| --- | --- |
+| Borde | `#c83d3d` |
+| Fondo | `#ffffff` |
+| Texto | `#202820` |
 
 ## Diseño esperado
 
