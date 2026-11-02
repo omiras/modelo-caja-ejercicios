@@ -15,13 +15,13 @@ Crea una página de presentación con enlaces a las redes sociales de una person
 
 Crea primero una tarjeta más ancha, con las redes sociales en una fila. Los enlaces se colocan en línea de forma natural. Ajusta el espacio disponible observando la captura.
 
-![Versión 1: redes sociales en una fila](disenoEsperado-v1.png)
+![Versión 1: redes sociales en una fila](diseñoEsperado-v1.png)
 
 ## Versión 2. Enlaces uno debajo del otro
 
 Después, adapta la tarjeta para conseguir esta segunda distribución:
 
-![Versión 2: redes sociales en columna](disenoEsperado.png)
+![Versión 2: redes sociales en columna](diseñoEsperado-v2.png)
 
 **Pista:** aplica `display: block` a los enlaces para que cada uno ocupe una fila. Ajusta los espacios para que los enlaces queden separados.
 
