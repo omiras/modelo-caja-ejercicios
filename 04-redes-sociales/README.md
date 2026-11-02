@@ -11,9 +11,19 @@ Crea una página de presentación con enlaces a las redes sociales de una person
 5. Elige los nombres de las clases que necesites y añádelas al HTML. Escribe los selectores, propiedades y valores CSS para reproducir la tarjeta. Decide las medidas observando la captura.
 6. Comprueba que cada enlace abre el perfil correcto en una pestaña nueva.
 
-## Diseño esperado
+## Versión 1. Enlaces uno al lado del otro
 
-![Tarjeta con enlaces a redes sociales](disenoEsperado.png)
+Crea primero una tarjeta más ancha, con las redes sociales en una fila. Los enlaces se colocan en línea de forma natural. Ajusta el espacio disponible observando la captura.
+
+![Versión 1: redes sociales en una fila](disenoEsperado-v1.png)
+
+## Versión 2. Enlaces uno debajo del otro
+
+Después, adapta la tarjeta para conseguir esta segunda distribución:
+
+![Versión 2: redes sociales en columna](disenoEsperado.png)
+
+**Pista:** aplica `display: block` a los enlaces para que cada uno ocupe una fila. Ajusta los espacios para que los enlaces queden separados.
 
 ## Colores de referencia
 
