@@ -1,6 +1,6 @@
 # Un banner de anuncio
 
-Este anuncio ya tiene el HTML y el CSS completos. Tu tarea es enlazar la hoja de estilos externa para que se vea como en la captura.
+❗ **El CSS ya está implementado en `estilos.css`: no tienes que escribirlo. Tu única tarea es enlazarlo desde el HTML.**
 
 ## Tu tarea
 
