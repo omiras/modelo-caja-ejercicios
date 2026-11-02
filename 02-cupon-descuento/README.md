@@ -1,45 +1,33 @@
 # Un cupón de descuento
 
-El cupón ya tiene el HTML, las clases, la imagen y todos los estilos preparados. Tu tarea es conectar el HTML con su hoja CSS externa.
+Reproduce el cupón de la captura escribiendo todas las reglas CSS dentro de la etiqueta `<style>` de `index.html`. El HTML y la imagen local ya están preparados; tú debes escribir los selectores, las propiedades y sus valores.
 
-## Archivos
-
-- `index.html`: contenido del cupón.
-- `estilos.css`: estilos completos del cupón.
-- `hamburguesa.jpg`: imagen local que ya utiliza la etiqueta `<img>`.
-- `disenoEsperado.png`: referencia del resultado con el CSS enlazado.
-
-## Tu tarea
-
-1. Abre `index.html` con Live Server y observa cómo aparece antes de enlazar los estilos.
-2. Busca el comentario situado dentro de `<head>` y sustitúyelo por esta etiqueta:
-
-```html
-<link rel="stylesheet" href="estilos.css">
-```
-
-3. Guarda el archivo y comprueba cómo cambia el cupón.
-
-`rel="stylesheet"` indica que enlazamos una hoja de estilos. `href="estilos.css"` es la ruta del archivo: basta con su nombre porque está en la misma carpeta que el HTML.
-
-La imagen también está en esta carpeta y se enlaza con una ruta relativa:
-
-```html
-<img class="foto" src="hamburguesa.jpg" alt="Hamburguesa con verduras y cebolla morada servida en un plato">
-```
+1. Abre `index.html` con Live Server.
+2. Localiza `<style>` dentro de `<head>`.
+3. Escribe tus reglas para dar estilo a la página y a las partes del cupón. Puedes utilizar las clases que ya tiene el HTML.
+4. Compara tu resultado con la captura.
 
 ## Diseño esperado
 
 ![Cupón de descuento](disenoEsperado.png)
 
-## Observa el modelo de caja
+## Medidas y colores de referencia
 
-- El cupón tiene 600 px de ancho de contenido y un borde de puntos de 5 px.
-- Los bloques interiores tienen padding para separar el texto de los bordes.
-- Los márgenes separan títulos y párrafos.
-- El código de descuento tiene su propio fondo y padding.
+| Parte | Indicaciones |
+| --- | --- |
+| Página | Arial o sans-serif, 18 px; fondo `#fff8f0`, texto `#3d443b` |
+| Cupón | Ancho de 600 px, margen de 40 px arriba y abajo y `auto` a los lados; borde de puntos de 5 px `#8fae98`, radio de 15 px y fondo `#ffffff` |
+| Cabecera | Padding de 20 px arriba y abajo y 24 px a los lados; fondo `#e4efe5`, esquinas superiores redondeadas de 10 px |
+| Título de la marca | 30 px; margen de 0 px salvo 10 px debajo |
+| Imagen | Ancho de 600 px; `display: block` para evitar el pequeño espacio inferior de las imágenes en línea |
+| Oferta | Padding de 24 px |
+| Título de la oferta | 28 px; margen de 0 px salvo 16 px debajo |
+| Párrafos | Margen de 12 px arriba y abajo y 0 px a los lados; interlineado de 28 px |
+| Condiciones | Padding de 16 px arriba y abajo y 24 px a los lados; fondo `#fff0db`, esquinas inferiores redondeadas de 10 px |
+| Código | Padding de 6 px arriba y abajo y 10 px a los lados; fondo `#d9eadc`, texto `#35583f` |
+| Caducidad | Texto `#94543b` |
 
-Los colores principales son crema `#fff8f0`, verde suave `#e4efe5` y melocotón `#fff0db`.
+La imagen `hamburguesa.jpg` está en la misma carpeta y ya aparece enlazada en el HTML.
 
 El resultado es aproximado. Comprueba tu solución con el navegador maximizado.
 
