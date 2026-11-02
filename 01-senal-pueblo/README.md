@@ -19,6 +19,8 @@ Las señales se colocan a la izquierda. El texto dentro de cada señal sí está
 | `font-weight` | `bold` |
 | `text-align` | `center` |
 
+El texto `villa tranquila` está escrito en minúsculas en el HTML. Usa `text-transform: uppercase` para mostrarlo en mayúsculas.
+
 ## 2. Aparcamiento: señal cuadrada
 
 | Propiedad | Valor |
