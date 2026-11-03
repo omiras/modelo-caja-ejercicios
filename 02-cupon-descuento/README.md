@@ -22,7 +22,7 @@ Reproduce el cupón de la captura escribiendo todas las reglas CSS dentro de la 
 | Imagen | Ancho de 600 px |
 | Oferta | Padding de 24 px |
 | Título de la oferta | 28 px; margen de 0 px salvo 16 px debajo |
-| Párrafos | Conserva el margen natural del navegador; interlineado de 28 px |
+| Párrafos | Conserva el margen y el interlineado naturales del navegador |
 | Condiciones | Padding de 16 px arriba y abajo y 24 px a los lados; fondo `#fff0db`, esquinas inferiores redondeadas de 10 px |
 | Código | Padding de 6 px arriba y abajo y 10 px a los lados; fondo `#d9eadc`, texto `#35583f` |
 | Caducidad | Texto `#94543b` |
